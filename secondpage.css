@@ -1,0 +1,72 @@
+.Bg{
+width: 1500px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+background-color: #E3C992 ;
+border-radius: 30px;
+}
+.title-name{
+	transform: translate(60%, 10px);
+	padding: 25px;
+	margin: 25px;
+  text-decoration: none;
+  font-size: 50px;
+  font-weight: 200;
+  left: 50%;
+  top: 10%;
+
+}
+h1{
+	text-align: center;
+}
+
+div.Cover-page{
+
+width: 250px;
+margin-right:35px ;
+margin-left: 35px;
+text-align: center;
+margin-top: 50px;
+border: 3px solid red;
+padding: 20px;
+transition: width 1.5s, height 1.5s ,margin-right 1.5s ,margin-left 1.5s ,margin-top 1.5s , border 1.5s ,padding 1.5s;
+
+
+}
+div.Cover-page:hover{
+
+width: 270px;
+margin-right:25px ;
+margin-left: 25px;
+text-align: center;
+margin-top: 40px;
+border: 6px solid red;
+padding: 30px;
+background-color: #ECE9E4 ;
+
+}
+div.Cover-page img{
+
+	width: 95%;
+}
+h1{
+	font-family: cursive;
+}
+
+.bname{
+   font-size: 18px;
+   font-family: cursive;
+   font-weight: 200;
+
+}
+.Author{
+	font-size: 15px;
+}
+
+.addbtn{
+float: left;
+top: 90%;
+left: 90%;
+
+}
